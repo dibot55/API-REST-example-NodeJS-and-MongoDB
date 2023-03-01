@@ -20,7 +20,7 @@ Para Ejecutar el proyecto debes seguir los pasos siguientes:
 
 <div align = "center"> 
 
-![dist](./img/rest.png)
+![rest](./img/REST.png)
 
 </div>
 
@@ -34,7 +34,7 @@ Para Ejecutar el proyecto debes seguir los pasos siguientes:
 
 <div align = "center"> 
 
-![dist](./img/env.png)
+![env](./img/ENV.png)
 
 </div>
 
@@ -55,6 +55,6 @@ Para Ejecutar el proyecto debes seguir los pasos siguientes:
 
 <div align = "center"> 
 
-![dist](./img/client.png)
+![client](./img/CLIENT.png)
 
 </div>
