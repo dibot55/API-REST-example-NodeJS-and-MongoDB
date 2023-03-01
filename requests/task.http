@@ -1,0 +1,42 @@
+// Petición de REST API Client
+###
+GET http://localhost:5000/api/tasks
+###
+// Guardar datos con una peticion POST
+POST http://localhost:5000/api/tasks
+// Enviar datos a travez de una peticion POST
+Content-Type: application/json
+
+{
+  "title": "Test 9",
+  "description": "Hacer una REST API",
+  "done": "true"
+}
+###
+// Solicitar un dato por el id como parametro
+GET http://localhost:5000/api/tasks/63fbd5c221bd52252ffffe41
+###
+// Actualizar un dato por el id como parametro
+PUT http://localhost:5000/api/tasks/63fbe9aa39c0d3f275b5c9df
+Content-Type: application/json
+
+{
+  "title": "Test 8",
+  "description": "Ver False",
+  "done": "false"
+}
+### 
+// Eliminar un dato por el id como parametro
+DELETE http://localhost:5000/api/tasks/63fbe216ccea6c5a7adcd1ab
+###
+// Mostrar todas las tareas que tengan la propiedad "done : true"
+GET http://localhost:5000/api/tasks/done
+###
+// Consultas
+GET http://localhost:5000/api/tasks/?page=0&size=3
+###
+GET http://localhost:5000/api/tasks/?page=2&size=3
+###
+GET http://localhost:5000/api/tasks/?page=3&size=3
+###
+GET http://localhost:5000/api/tasks/?page=0&size=3&title=test

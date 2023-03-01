@@ -1,0 +1,4 @@
+{
+  "presets": ["@babel/preset-env"], // Ejecuta compila y ejecuta el codigo
+  "plugins": ["@babel/plugin-transform-runtime"] // Crea el "dist"
+}
