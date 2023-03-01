@@ -55,6 +55,6 @@ Para Ejecutar el proyecto debes seguir los pasos siguientes:
 
 <div align = "center"> 
 
-![client](./img/CLIENT.png)
+![client](./img/Client.png)
 
 </div>
